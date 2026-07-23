@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.coffee-color{
+    color: #E9B44C;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -26,5 +30,34 @@ nav{
     gap: 20px;
     color:#FBF6EF ;
 
+}
 
+
+
+/* header start */
+
+header{
+    background-image: linear-gradient(rgb(0,0,0,0.6), rgba(0,0,0,0.6)), url(./image/bg-image.avif);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content{
+  color: white;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+}
+
+.header-content button{
+    width: 20%;
+    margin-left: 40%;
+    padding: 10px 8px;
+    background-color: #E9B44C;
+    border-radius: 18px;
 }
