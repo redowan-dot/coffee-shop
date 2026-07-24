@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+section{
+    padding: 80px 8%;
+}
+
+
 .coffee-color{
     color: #E9B44C;
 }
@@ -60,4 +65,46 @@ header{
     padding: 10px 8px;
     background-color: #E9B44C;
     border-radius: 18px;
+    border: none;
+}
+
+
+/* our story secction  */
+
+.our-story{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+
+}
+
+.our-story div img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.our-story , 
+.right-side {
+    display: grid;
+    align-items: center;
+
+}
+
+.right-side div h2 {
+    padding-bottom: 12px;
+}
+
+.right-side div p {
+    padding-bottom: 12px;
+}
+
+.right-side div button{
+    padding: 10px 12px;
+    border-radius: 18px;
+    background-color: #E9B44C;
+    border: none;
+}
+
+.popular-bg{
+    background-color: #F1E7D8;
 }
