@@ -105,6 +105,43 @@ header{
     border: none;
 }
 
+
+/* Our menu section */
+
 .popular-bg{
     background-color: #F1E7D8;
 }
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 70px;
+}
+
+.card-container .card{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+
+}
+
+.our-menu-top{
+    text-align: center;
+}
+
+.card img {
+    padding-bottom: 12px;
+}
+
+.card h1 {
+    padding-bottom: 12px;
+}
+
+.card p {
+    padding-bottom: 12px;
+}
+
+
+
