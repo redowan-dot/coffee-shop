@@ -146,3 +146,24 @@ header{
 
 /* table start */
 
+.top {
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 70px;
+}
+
+td, th {
+    border: 2px solid #2E2622;
+    padding: 12px 5px;
+}
+thead {
+    background-color: #2E2622;
+}
+th{
+    color: #E9B44C;
+}
