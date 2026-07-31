@@ -178,3 +178,29 @@ th{
     max-height: 300px;
     object-fit: cover;
 }
+
+.first{
+    width: 300px;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 18px;
+
+}
+
+.second{
+    width: 100px;
+    border: 2px solid #E9B44C;
+    background-color: white;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
